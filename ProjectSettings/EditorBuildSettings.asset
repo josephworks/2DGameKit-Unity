@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/2DGamekit/Scenes/Start.unity
     guid: 57df1e417250bc247976c2c0dc088efe
   - enabled: 1
-    path: Assets/BayatGames/Free Platform Game Assets/Demo/Demo.unity
-    guid: c141d24673958bb44b780d361745cca7
-  - enabled: 1
     path: Assets/2DGamekit/Scenes/Zone1.unity
     guid: a94cb8f134bf81349ad016c79b629e3d
   - enabled: 1
@@ -33,9 +30,21 @@ EditorBuildSettings:
     path: Assets/2DGamekit/Scenes/UI/Loading.unity
     guid: ebc4647ff02971c4ba1b207af066be4d
   - enabled: 1
-    path: Assets/Scene1.unity
-    guid: 3cd0cffd477e2f04a8266e2c996f1d4f
+    path: 
+    guid: 240ec9824a41a4ecb8ccdf3507d1adc0
   - enabled: 1
-    path: Assets/Scene2.unity
-    guid: dfe9d45b20e50284e9f79d7fab855add
+    path: 
+    guid: beaba465fcff4439795f30ae75d58f6e
+  - enabled: 1
+    path: 
+    guid: 270072cfc180a47179cff49edea38e4c
+  - enabled: 1
+    path: 
+    guid: 1b6fd90cf2d7eee49895bf4317d238d4
+  - enabled: 1
+    path: Assets/NewScene.unity
+    guid: 9313e086fc696ec468d3a18491081e3c
+  - enabled: 1
+    path: Assets/NewScene2.unity
+    guid: 8db8e743ecdacbc4a9b0b56f00dfedf4
   m_configObjects: {}
