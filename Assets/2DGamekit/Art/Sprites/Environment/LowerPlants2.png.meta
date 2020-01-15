@@ -1,21 +1,39 @@
 fileFormatVersion: 2
 guid: 65064d37f969d7e479d033b652437758
-timeCreated: 1512558908
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: LowerPlants2_0
-    21300002: LowerPlants2_1
-    21300004: LowerPlants2_3
-    21300006: LowerPlants2_8
-    21300008: LowerPlants2_10
-    21300010: LowerPlants2_11
-    21300012: LowerPlants2_12
-    21300014: LowerPlants2_13
-    21300016: LowerPlants2_14
-    21300018: LowerPlants2_15
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: LowerPlants2_0
+  - first:
+      213: 21300002
+    second: LowerPlants2_1
+  - first:
+      213: 21300004
+    second: LowerPlants2_3
+  - first:
+      213: 21300006
+    second: LowerPlants2_8
+  - first:
+      213: 21300008
+    second: LowerPlants2_10
+  - first:
+      213: 21300010
+    second: LowerPlants2_11
+  - first:
+      213: 21300012
+    second: LowerPlants2_12
+  - first:
+      213: 21300014
+    second: LowerPlants2_13
+  - first:
+      213: 21300016
+    second: LowerPlants2_14
+  - first:
+      213: 21300018
+    second: LowerPlants2_15
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -33,6 +51,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -43,7 +63,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -55,18 +75,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -76,7 +99,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -86,7 +111,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -96,6 +123,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -278,6 +306,13 @@ TextureImporter:
         - {x: 380, y: 631}
         - {x: 380, y: 710}
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: LowerPlants2_1
       rect:
@@ -318,6 +353,13 @@ TextureImporter:
         - {x: 308, y: -313.5}
         - {x: 308, y: 356.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: LowerPlants2_3
       rect:
@@ -359,6 +401,13 @@ TextureImporter:
         - {x: 234, y: -289}
         - {x: 320, y: 114}
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: LowerPlants2_8
       rect:
@@ -389,6 +438,13 @@ TextureImporter:
         - {x: 98.5, y: 70.5}
         - {x: 10.5, y: 133.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: LowerPlants2_10
       rect:
@@ -420,6 +476,13 @@ TextureImporter:
         - {x: 94.5, y: -2.5}
         - {x: 94.5, y: 96.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: LowerPlants2_11
       rect:
@@ -450,6 +513,13 @@ TextureImporter:
         - {x: 60, y: -47.5}
         - {x: 60, y: 67.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: LowerPlants2_12
       rect:
@@ -480,6 +550,13 @@ TextureImporter:
         - {x: 92.5, y: 96.5}
         - {x: 84.5, y: 104.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: LowerPlants2_13
       rect:
@@ -598,9 +675,26 @@ TextureImporter:
       - - {x: 50, y: 141}
         - {x: 48, y: 141}
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

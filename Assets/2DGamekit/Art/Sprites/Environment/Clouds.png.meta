@@ -1,25 +1,51 @@
 fileFormatVersion: 2
 guid: 76465a0a33addfa4686beca3ade8fc17
-timeCreated: 1512061211
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Clouds_0
-    21300002: Clouds_7
-    21300004: Clouds_8
-    21300006: Clouds_3
-    21300008: Clouds_4
-    21300010: Clouds_5
-    21300012: Clouds_6
-    21300014: Clouds_7
-    21300016: Clouds_9
-    21300018: Clouds_14
-    21300020: Clouds_16
-    21300022: Clouds_15
-    21300024: Clouds_17
-    21300026: Clouds_8
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Clouds_0
+  - first:
+      213: 21300002
+    second: Clouds_7
+  - first:
+      213: 21300004
+    second: Clouds_8
+  - first:
+      213: 21300006
+    second: Clouds_3
+  - first:
+      213: 21300008
+    second: Clouds_4
+  - first:
+      213: 21300010
+    second: Clouds_5
+  - first:
+      213: 21300012
+    second: Clouds_6
+  - first:
+      213: 21300014
+    second: Clouds_7
+  - first:
+      213: 21300016
+    second: Clouds_9
+  - first:
+      213: 21300018
+    second: Clouds_14
+  - first:
+      213: 21300020
+    second: Clouds_16
+  - first:
+      213: 21300022
+    second: Clouds_15
+  - first:
+      213: 21300024
+    second: Clouds_17
+  - first:
+      213: 21300026
+    second: Clouds_8
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -37,6 +63,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -47,7 +75,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: -1
     wrapW: -1
@@ -59,18 +87,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -80,7 +111,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -90,7 +123,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -100,6 +135,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -123,6 +159,13 @@ TextureImporter:
         - {x: 1276.5, y: 61}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Clouds_4
       rect:
@@ -145,6 +188,13 @@ TextureImporter:
         - {x: -40.749985, y: 204.5685}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Clouds_5
       rect:
@@ -168,6 +218,13 @@ TextureImporter:
         - {x: 449.5, y: 107.79487}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Clouds_6
       rect:
@@ -192,6 +249,13 @@ TextureImporter:
         - {x: 370.5, y: 181}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Clouds_9
       rect:
@@ -242,6 +306,13 @@ TextureImporter:
         - {x: -79.74994, y: 11.094505}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Clouds_16
       rect:
@@ -265,6 +336,13 @@ TextureImporter:
         - {x: 295.00003, y: 49.201466}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Clouds_15
       rect:
@@ -290,6 +368,13 @@ TextureImporter:
         - {x: 877, y: -19.814651}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Clouds_7
       rect:
@@ -313,6 +398,13 @@ TextureImporter:
         - {x: 78.75, y: 56.266666}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: Clouds_8
       rect:
@@ -336,9 +428,26 @@ TextureImporter:
         - {x: 437.50012, y: 211.32234}
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

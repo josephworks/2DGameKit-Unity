@@ -1,21 +1,39 @@
 fileFormatVersion: 2
 guid: f66c4b63264e91e48bbdc9c0a5966da4
-timeCreated: 1512989679
-licenseType: Store
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: HangingPlants1_0
-    21300002: HangingPlants1_1
-    21300004: HangingPlants1_2
-    21300006: HangingPlants1_3
-    21300008: HangingPlants1_4
-    21300010: HangingPlants1_5
-    21300012: HangingPlants1_6
-    21300014: HangingPlants1_7
-    21300016: HangingPlants1_8
-    21300018: HangingPlants1_9
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: HangingPlants1_0
+  - first:
+      213: 21300002
+    second: HangingPlants1_1
+  - first:
+      213: 21300004
+    second: HangingPlants1_2
+  - first:
+      213: 21300006
+    second: HangingPlants1_3
+  - first:
+      213: 21300008
+    second: HangingPlants1_4
+  - first:
+      213: 21300010
+    second: HangingPlants1_5
+  - first:
+      213: 21300012
+    second: HangingPlants1_6
+  - first:
+      213: 21300014
+    second: HangingPlants1_7
+  - first:
+      213: 21300016
+    second: HangingPlants1_8
+  - first:
+      213: 21300018
+    second: HangingPlants1_9
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -33,6 +51,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -43,7 +63,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: -1
@@ -55,18 +75,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -76,7 +99,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Standalone
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -86,7 +111,9 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - buildTarget: Android
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -96,6 +123,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -154,6 +182,13 @@ TextureImporter:
         - {x: 126, y: 349}
         - {x: 126, y: 350}
       tessellationDetail: 0
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HangingPlants1_1
       rect:
@@ -349,6 +384,13 @@ TextureImporter:
         - {x: -211.5, y: 383}
         - {x: -210.5, y: 382}
       tessellationDetail: 0
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HangingPlants1_2
       rect:
@@ -454,6 +496,13 @@ TextureImporter:
         - {x: -53.5, y: 380.5}
         - {x: -56.5, y: 377.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HangingPlants1_4
       rect:
@@ -602,6 +651,13 @@ TextureImporter:
         - {x: 58.5, y: 489}
         - {x: 58.5, y: 496}
       tessellationDetail: 0
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HangingPlants1_6
       rect:
@@ -639,6 +695,13 @@ TextureImporter:
         - {x: 576, y: 392.5}
         - {x: 458.9004, y: 392.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HangingPlants1_7
       rect:
@@ -695,6 +758,13 @@ TextureImporter:
         - {x: 24.5, y: 362}
         - {x: 25.5, y: 362}
       tessellationDetail: 0
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HangingPlants1_8
       rect:
@@ -752,6 +822,13 @@ TextureImporter:
         - {x: -27, y: 38}
         - {x: -26, y: 38}
       tessellationDetail: 0
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: HangingPlants1_9
       rect:
@@ -791,9 +868,26 @@ TextureImporter:
         - {x: 114.5, y: 53.5}
         - {x: 114.5, y: 201.5}
       tessellationDetail: 0
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
